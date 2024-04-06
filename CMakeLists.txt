@@ -38,6 +38,7 @@ else()
     else()
         add_executable(clear
             ${PROJECT_SOURCES}
+            codeing.h codeing.cpp
         )
     endif()
 endif()
